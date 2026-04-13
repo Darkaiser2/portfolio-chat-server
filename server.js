@@ -8,6 +8,8 @@ const io         = new Server(httpServer, {
   cors: {
     origin: [
       'https://darkaiser2.github.io',
+      'https://maestroroschi.com',
+      'https://www.maestroroschi.com',
       /^http:\/\/localhost(:\d+)?$/
     ],
     methods: ['GET', 'POST']
